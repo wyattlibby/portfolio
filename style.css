@@ -6,37 +6,43 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-section
+.section
 {
      padding: 100px;
 }
 .banner
-{
-    position: relative;
-    min-height: 100vh;
-    background: url(banner.jpg);
+{ 
+
+    background: grey;
+    background-image: url("/images/mtn.jpg");
+    /* background: url("banner.jpg"); */
     background-size: cover;
-    background-position: right;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-position: center;
+    min-height: 30vh;
+    padding: 2% 6%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+   
 }
 .banner h2
 {
  font-size: 3em;
- color: #fff;
+ color: rgb(12, 11, 11);
  font-weight: 500;
  line-height: 1.5em;
 }
 .banner h2 span 
 {
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 .banner h3
 {
     font-size: 1.5em;
-    color: #fff;
+    color: rgb(10, 10, 10);
     font-weight: 500;    
 }
 .btn
@@ -64,4 +70,27 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header .logo
+{
+    color:darkblue;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: darkgray;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+header ul
+{
+    position: relative;
+    display:flexwrap;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
 }
