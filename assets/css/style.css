@@ -193,6 +193,9 @@ main {
   padding: 8px 10px;
 }
 
+.title {
+  font-size: 1.6rem;
+}
 .flex-item h3 {
   font-size: 1.6rem;
 }
@@ -231,19 +234,19 @@ main {
 
 /*images loaded to html*/
 .surf {
-  background-image: url("./assets/images/earth.jpg");
+  background-image: url("../assets/images/earth.jpg");
 }
 .led {
-  background-image: url("./assets/images/earth.jpg");
+  background-image: url("../assets/images/earth.jpg");
 }
 .calc {
-  background-image: url("./assets/images/earth.jpg");
+  background-image: url("../assets/images/earth.jpg");
 }
 .puzzles {
-  background-image: url("./assets/images/earth.jpg");
+  background-image: url("../assets/images/earth.jpg");
 }
 .run {
-  background-image: url("./assets/images/earth.jpg");
+  background-image: url("../assets/images/earth.jpg");
 }
 
 /*media queries*/
